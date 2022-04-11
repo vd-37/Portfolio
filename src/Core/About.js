@@ -27,7 +27,7 @@ export const About = () => {
                         I like exploring new fields in tech and I am actively looking for internships which match
                         my skills.
                     </p>
-                    <a className="resume about-text" href="https://documentcloud.adobe.com/link/review?uri=urn:aaid:scds:US:d50bcd7c-b846-4fab-8fc0-0194028b2f9b" download="Vinayaka.D Resume">Check out my resume</a>
+                    <a className="resume about-text" href="https://drive.google.com/file/d/1Ifg639HT3Y8jdyjVdCpL_R92FChz73C3/view?usp=sharing">Check out my resume</a>
                     <div className="Icons-tab">
                         <div className="social-icons"><Link to="/twitter" className="icon-link"><TwitterIcon /></Link></div>
                         <div className="social-icons"><Link to="/instagram" className="icon-link"><InstagramIcon /></Link></div>
