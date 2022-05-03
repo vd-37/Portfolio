@@ -15,6 +15,9 @@ export const About = () => {
         delay: 0, 
         duration: 400 
       });
+      var date = new Date();
+      var curYear = date.getFullYear();
+      var age = curYear - 2001;
     return (
         <div  className="container-fluid">
             <div className="padding row" data-aos="fade-up">
@@ -23,7 +26,7 @@ export const About = () => {
                     <h5 className="pt-5 about-text">Hi, I'm Vinayaka</h5> <br />
                     <p className="details">
                         I am a Computer Science student at SJB Institute of technology.
-                        I am a 20 year old from Bangalore. I enjoy solving problems and building websites.
+                        I am a {age} year old from Bangalore. I enjoy solving problems and building websites.
                         I like exploring new fields in tech and I am actively looking for internships which match
                         my skills.
                     </p>
