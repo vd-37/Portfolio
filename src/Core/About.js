@@ -1,5 +1,5 @@
 import React from 'react'
-import VDimage from "./Image/VD.png"
+import VDimage from "./Image/VD.webp"
 import { Link,Redirect } from "react-router-dom"
 import { Twitter as TwitterIcon } from "@material-ui/icons";
 import { LinkedIn as LinkedInIcon } from "@material-ui/icons";
@@ -13,7 +13,7 @@ export const About = () => {
     AOS.init({
         offset: 300,
         delay: 0, 
-        duration: 400 
+        duration: 200 
       });
       var date = new Date();
       var curYear = date.getFullYear();
