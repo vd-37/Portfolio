@@ -1,8 +1,8 @@
 import React from 'react'
 import Loopstudios from "./Image/Loopstudios.jpg"
-import Keeper from "./Image/Keeper.jpg"
 import Todo from "./Image/Todo.jpg"
 import Tshirt from "./Image/Tshirt.jpg"
+import Fest from './Image/Fest.jpg'
 import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -30,7 +30,7 @@ export const Projects1 = () => {
                         <h3 className="project-heading">T-shirt Store</h3>
                         <p>
                             This is a fullstack web app made for an online T-shirt selling website.
-                            In this web app, user can create a new account and add
+                            In this website, user can create a new account and add
                             items to cart and then checkout. Payment gateway is handled by Braintree.
                             <br />
                             <br />
@@ -73,25 +73,26 @@ export const Projects1 = () => {
 
                 <section class="card" data-aos="fade-left">
                     <div className="img">
-                        <Link to="/project/Keeper/website">
-                            <img src={Keeper} alt="" />
+                        <Link to="/project/Fest/website">
+                            <img src={Fest} alt="" />
                         </Link>
                     </div>
 
                     <div>
-                        <h3 className="project-heading">Keeper App</h3>
+                        <h3 className="project-heading">Varchasva</h3>
                         <p>
-                            Keeper App helps you make short/quick notes when needed. You can add/ delete
-                            as many quick notes you can with this app.
+                            "Varchasva" is the annual fest of the college. The website gives all the 
+                            information about the fest. Students can register to various events 
+                            listed in the website.
                             <br />
                             <br />
-                            <span>Technologies used:</span> ReactJS, HTML, CSS.
+                            <span>Technologies used:</span> jQuery, HTML, CSS.
                             <br />
-                            <span>Deployment:</span> CodeSandbox.
+                            <span>Deployment:</span> Github.
                         </p>
-                        <Link className="project-link" to="/project/Keeper/github">Source code</Link>
+                        <Link className="project-link" to="/project/Fest/github">Source code</Link>
                         <br />
-                        <Link className="project-link" to="/project/Keeper/website">Website</Link>
+                        <Link className="project-link" to="/project/Fest/website">Website</Link>
                     </div>
                 </section>
 

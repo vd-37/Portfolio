@@ -2,6 +2,7 @@
 
 html{
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body{
@@ -11,16 +12,9 @@ body{
   font-family: 'Montserrat', sans-serif;
   overflow-x: hidden;
 }
-<<<<<<< HEAD
  p{
    color: #F3F1F5;
  }
-=======
-
-p{
-  color: #F3F1F5;
-}
->>>>>>> d919c8a4e763feefb998f594e6041fd7b1857aa7
 
 body:before {
   position: fixed;
@@ -83,6 +77,12 @@ body:after {
   letter-spacing: 0;
 }
 
+.bio{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
 .about{
   display: flex;
   justify-content: center;
@@ -121,6 +121,9 @@ body:after {
     cursor: pointer;
 }
 
+.social-icons:last-child{
+  margin-right: 0;
+}
 .icon-link:hover, .resume:hover, .project-link:hover, .git-link:hover{
   transition: 0.5s ease-out;
   color: white;
@@ -237,6 +240,16 @@ footer{
   margin-bottom: 10rem;
 }
 
+.contactMail{
+  color: #1DA1F2;
+  text-decoration: underline;
+  transition: 0.5s;
+}
+
+.contactMail:hover{
+  text-decoration: none;
+  color: white;
+}
 @media(max-width:1024px) and (min-width:601px){
   .slick-images{
     padding: 5vw ;

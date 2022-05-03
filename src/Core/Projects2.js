@@ -2,7 +2,7 @@ import React from 'react'
 // import Simon from './Image/Simon.png'
 import Drum from './Image/Drum.jpg'
 import Tindog from './Image/Tindog.jpg'
-import Fest from './Image/Fest.jpg'
+import Keeper from "./Image/Keeper.jpg"
 import Bootstrap from './Image/Bootstrap.jpg'
 import Easybank from './Image/Easybank.jpg'
 import Blogr from './Image/Blogr.jpg'
@@ -16,8 +16,8 @@ export const Projects2 = () => {
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 4000,
+    autoplaySpeed: 4000,
     cssEase: "linear",
     responsive: [
       {
@@ -57,7 +57,7 @@ export const Projects2 = () => {
         <ImageLoader title="EasyBank landing page" src={Easybank} siteRoute="/project/Easybank/website" gitRoute="/project/Easybank/github" />
         <ImageLoader title="A website on bootsrap" src={Bootstrap} siteRoute="/project/Bootstrap/website" gitRoute="/project/Bootstrap/github" />
         <ImageLoader title="Drums" src={Drum} siteRoute="/project/Drums/website" gitRoute="/project/Drums/github" />
-        <ImageLoader title="College fest website" src={Fest} siteRoute="/project/Fest/website" gitRoute="/project/Fest/github" />
+        <ImageLoader title="Keeper App" src={Keeper} siteRoute="/project/Keeper/website" gitRoute="/project/Keeper/github" />
       </Slider>
       <hr />
     </div>

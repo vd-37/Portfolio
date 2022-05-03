@@ -20,15 +20,15 @@ export const About = () => {
       var age = curYear - 2001;
     return (
         <div  className="container-fluid">
-            <div className="padding row" data-aos="fade-up">
-                <img src={VDimage} className="VDimage col-md-6" alt="" />
+            <div className="padding row bio" data-aos="fade-up">
+                <img src={VDimage} className="VDimage col-md-6 center" alt="" />
                 <div className="col-md-6 about">
                     <h5 className="pt-5 about-text">Hi, I'm Vinayaka</h5> <br />
                     <p className="details">
                         I am a Computer Science student at SJB Institute of technology.
                         I am a {age} year old from Bangalore. I enjoy solving problems and building websites.
-                        I like exploring new fields in tech and I am actively looking for internships which match
-                        my skills.
+                        I like exploring new fields in tech and I am actively seeking internships in the field of web
+                        development.
                     </p>
                     <a className="resume about-text" href="https://drive.google.com/file/d/1Ifg639HT3Y8jdyjVdCpL_R92FChz73C3/view?usp=sharing">Check out my resume</a>
                     <div className="Icons-tab">
@@ -39,7 +39,7 @@ export const About = () => {
                     </div>
                     <div className="contact mt-4">
                         <h5>Contact me here!</h5>
-                        <h6>Email : <span className="email">vinayakadayanand007@gmail.com</span></h6>
+                        <h6><a  className='contactMail' href="mailto:vinayakadayanand007@gmail.com">Send Email</a></h6>   
                     </div>
                 </div>
             </div>

@@ -18,7 +18,7 @@ export const Contact = () => {
             <div className="contactTitle text-center">
             <p className="title ">Contact Me</p>
             
-            <h6>vinayakadayanand007@gmail.com</h6>   
+            <h6><a  className='contactMail' href="mailto:vinayakadayanand007@gmail.com">Send Email</a></h6>   
 
             </div>
             
