@@ -1,11 +1,11 @@
 import React from 'react'
 // import Simon from './Image/Simon.png'
-import Drum from './Image/Drum.jpg'
-import Tindog from './Image/Tindog.jpg'
-import Keeper from "./Image/Keeper.jpg"
-import Bootstrap from './Image/Bootstrap.jpg'
-import Easybank from './Image/Easybank.jpg'
-import Blogr from './Image/Blogr.jpg'
+import Drum from './Image/Drum.webp'
+import Tindog from './Image/Tindog.webp'
+import Keeper from "./Image/Keeper.webp"
+import Bootstrap from './Image/Bootstrap.webp'
+import Easybank from './Image/Easybank.webp'
+import Blogr from './Image/Blogr.webp'
 import Slider from "react-slick";
 import { ImageLoader } from './ImageLoader';
 
