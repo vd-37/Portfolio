@@ -30,7 +30,7 @@ export const About = () => {
                         I like exploring new fields in tech and I am actively seeking internships in the field of web
                         development.
                     </p>
-                    <a className="resume about-text" href="https://drive.google.com/file/d/1Ifg639HT3Y8jdyjVdCpL_R92FChz73C3/view?usp=sharing">Check out my resume</a>
+                    <a className="resume about-text" href="https://drive.google.com/file/d/1E_2Nb9xEDMRW1JUVAzdyxXrBkbXDYeJ5/view?usp=sharing">Check out my resume</a>
                     <div className="Icons-tab">
                         <div className="social-icons"><Link to="/twitter" className="icon-link"><TwitterIcon /></Link></div>
                         <div className="social-icons"><Link to="/instagram" className="icon-link"><InstagramIcon /></Link></div>
