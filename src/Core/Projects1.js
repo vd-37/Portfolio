@@ -6,7 +6,7 @@ import Fest from './Image/Fest.jpg'
 import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
+import Realtor from "./Image/Realtor.jpg"
 
 
 export const Projects1 = () => {
@@ -27,14 +27,11 @@ export const Projects1 = () => {
                         </Link>
                     </div>
                     <div>
-                        <h3 className="project-heading">T-shirt Store</h3>
+                        <h3 className="project-heading">WrogX clothing</h3>
                         <p>
                             This is a fullstack web app made for an online T-shirt selling website.
-                            In this website, user can create a new account and add
+                            The user can create a new account and add
                             items to cart and then checkout. Payment gateway is handled by Braintree.
-                            <br />
-                            <br />
-                            P.S This is still a work in progress
                             <br />
                             <br />
                             <span>Technologies used:</span> ReactJS, Django, DjangoREST, PostgreSQL
@@ -48,6 +45,29 @@ export const Projects1 = () => {
                 </section>
 
                 <section class="card" data-aos="fade-right">
+                    <div className="img">
+                        <Link to="/project/Realtor/website">
+                            <img src={Realtor} alt="" />
+                        </Link>
+                    </div>
+                    <div>
+                        <h3 className="project-heading">Realtor</h3>
+                        <p>
+                        Realtor - an amazing Real Estate Application. With rental homes and for-sale properties, advanced property filtering, property 
+                        details page with an image carousel. The website gives information about the real estate in UAE.
+                            <br />
+                            <br />
+                            <span>Technologies used:</span> NextJs, Rapid API
+                            <br />
+                            <span>Deployment:</span> Vercel
+                        </p>
+                        <Link className="project-link" to="/project/Realtor/github">Source code</Link>
+                        <br />
+                        <Link className="project-link" to="/project/Realtor/website">Website</Link>
+                    </div>
+                </section>
+
+                <section class="card" data-aos="fade-left">
                     <div className="img">
                         <Link to="/project/Loopstudios/website">
                             <img src={Loopstudios} alt="" />
@@ -71,7 +91,7 @@ export const Projects1 = () => {
                     </div>
                 </section>
 
-                <section class="card" data-aos="fade-left">
+                <section class="card" data-aos="fade-right">
                     <div className="img">
                         <Link to="/project/Fest/website">
                             <img src={Fest} alt="" />
@@ -93,32 +113,6 @@ export const Projects1 = () => {
                         <Link className="project-link" to="/project/Fest/github">Source code</Link>
                         <br />
                         <Link className="project-link" to="/project/Fest/website">Website</Link>
-                    </div>
-                </section>
-
-                <section class="card" data-aos="fade-right">
-                    <div className="img">
-                        <Link to="/project/Todo/website">
-                            <img src={Todo} alt="" />
-                        </Link>
-                    </div>
-
-                    <div>
-                        <h3 className="project-heading">TODO List</h3>
-                        <p>
-                            A TODO list app to keep track of your daily TODOs. It is easy to use and
-                            can make your life a tad bit easier.
-
-                            <br />
-                            <br />
-                            <span>Technologies used:</span> Node.js, Express.
-                            <br />
-                            <span>Deployment:</span> Heroku.
-
-                        </p>
-                        <Link className="project-link" to="/project/Todo/github">Source code</Link>
-                        <br />
-                        <Link className="project-link" to="/project/Todo/website">Website</Link>
                     </div>
                 </section>
             </main>

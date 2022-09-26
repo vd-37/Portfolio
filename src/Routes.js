@@ -31,12 +31,12 @@ export const Routes = () => {
                     window.location.href = 'https://github.com/vd-37/tshirt-react-frontend';
                     return null;
                 }} />
-                <Route path='/project/Todo/website' component={() => {
-                    window.location.href = 'https://shielded-basin-33925.herokuapp.com/';
+                <Route path='/project/Realtor/website' component={() => {
+                    window.location.href = 'https://realtor-vd-37.vercel.app/';
                     return null;
                 }} />
-                <Route path='/project/Todo/github' component={() => {
-                    window.location.href = 'https://github.com/vd-37/TODOLIST';
+                <Route path='/project/Realtor/github' component={() => {
+                    window.location.href = 'https://github.com/vd-37/Realtor';
                     return null;
                 }} />
                 <Route path='/project/Loopstudios/website' component={() => {
