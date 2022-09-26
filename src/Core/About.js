@@ -1,5 +1,5 @@
 import React from 'react'
-import VDimage from "./Image/VD.png"
+import VDimage from "./Image/VD.webp"
 import { Link,Redirect } from "react-router-dom"
 import { Twitter as TwitterIcon } from "@material-ui/icons";
 import { LinkedIn as LinkedInIcon } from "@material-ui/icons";
@@ -13,7 +13,7 @@ export const About = () => {
     AOS.init({
         offset: 300,
         delay: 0, 
-        duration: 400 
+        duration: 200 
       });
       var date = new Date();
       var curYear = date.getFullYear();
@@ -30,7 +30,7 @@ export const About = () => {
                         I like exploring new fields in tech and I am actively seeking internships in the field of web
                         development.
                     </p>
-                    <a className="resume about-text" href="https://drive.google.com/file/d/1Ifg639HT3Y8jdyjVdCpL_R92FChz73C3/view?usp=sharing">Check out my resume</a>
+                    <a className="resume about-text" href="https://drive.google.com/file/d/11hpSw3e0khen0s5_PdD5NI3_tSzUFqKY/view?usp=sharing">Check out my resume</a>
                     <div className="Icons-tab">
                         <div className="social-icons"><Link to="/twitter" className="icon-link"><TwitterIcon /></Link></div>
                         <div className="social-icons"><Link to="/instagram" className="icon-link"><InstagramIcon /></Link></div>

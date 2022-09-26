@@ -1,8 +1,8 @@
 import React from 'react'
-import Loopstudios from "./Image/Loopstudios.jpg"
-import Todo from "./Image/Todo.jpg"
-import Tshirt from "./Image/Tshirt.jpg"
-import Fest from './Image/Fest.jpg'
+import Loopstudios from "./Image/Loopstudios.webp"
+import Todo from "./Image/Todo.webp"
+import Tshirt from "./Image/Tshirt.webp"
+import Fest from './Image/Fest.webp'
 import { Link } from 'react-router-dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -13,7 +13,7 @@ export const Projects1 = () => {
     AOS.init({
         offset: 300,
         delay: 0,
-        duration: 400
+        duration: 300
     });
     return (
         <div className="portfolio padding">
