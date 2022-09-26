@@ -16,6 +16,9 @@ export const Name = () => {
                     <div className="title text-center">A WEB DEVELOPER</div>
                 </Carousel.Item>
             </Carousel>
+            <div className='scroll-down'>
+
+            </div>
         </div>
             
     )  
