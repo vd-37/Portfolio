@@ -256,6 +256,7 @@ footer{
   height: 50px;
   width: 30px;
   border: 2px solid;
+  border-color: #161616;
   position: absolute;
   left: 50%;
   bottom: 20px;
