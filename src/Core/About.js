@@ -27,7 +27,7 @@ export const About = () => {
                     <p className="details">
                         I am a Computer Science student at SJB Institute of technology.
                         I am a {age} year old from Bangalore. I enjoy solving problems and building websites.
-                        I like exploring new fields in tech and I am actively seeking internships in the field of web
+                        I like exploring new fields in tech and I am actively seeking Full Time in the field of Software
                         development.
                     </p>
                     <a className="resume about-text" href="https://drive.google.com/file/d/1BIVdVPDfCTIAhRBSJW-GPMhYLJOL3rG1/view?usp=share_link">Check out my resume</a>
